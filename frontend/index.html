@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Q&A Bot</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 YouTube Q&A Bot</h1>
+            <p>Ask questions about any YouTube video</p>
+        </header>
+
+        <section class="video-input">
+            <div class="input-group">
+                <input type="text" id="youtube-url" placeholder="Paste YouTube URL here...">
+                <button id="load-btn">Load Video</button>
+            </div>
+            <div id="video-status" class="status"></div>
+        </section>
+
+        <section class="chat-container">
+            <div id="chat-box" class="chat-box">
+                <div class="message bot-message">
+                    <p>Hello! Paste a YouTube URL above and I'll answer your questions about the video.</p>
+                </div>
+            </div>
+
+            <div class="input-group chat-input">
+                <input type="text" id="question-input" placeholder="Ask a question about the video..." disabled>
+                <button id="send-btn" disabled>Send</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
