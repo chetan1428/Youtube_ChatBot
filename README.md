@@ -90,7 +90,7 @@ youtube-qa-bot/
 
 ## Screenshots
 
-![YouTube Q&A Bot](screenshots/demo.png)
+![YouTube Q&A Bot](./screenshots/demo.png)
 
 ## License
 
