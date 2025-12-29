@@ -90,7 +90,7 @@ youtube-qa-bot/
 
 ## Screenshots
 
-![YouTube Q&A Bot](https://via.placeholder.com/800x400?text=YouTube+Q%26A+Bot+Screenshot)
+![YouTube Q&A Bot](screenshots/demo.png)
 
 ## License
 
